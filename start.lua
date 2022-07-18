@@ -9211,3 +9211,56 @@ end
 ----------------------------------------------------------------------------------------------------
 end
 Runbot.run(Call)
+if Text and Text:match("(%d+)/idomery/(%d+)") then
+local UserId = {Text:match("(%d+)/idomery/(%d+)")}
+if tonumber(IdUser) == tonumber(UserId1]) then
+var(UserId)
+Redis:set(hawks.."zogte"..ChatId..UserId[1],UserId[2])
+Redis:set(hawks.."zogte"..ChatId..UserId[2],UserId[1])
+Redis:sadd(hawks.."zogatall"..ChatId,UserId[1])
+local UserInfo = merolua.getUser(UserId[1])
+local Teext = "- ["..FlterBio(UserInfo.first_name)..""
+local UserInfo2 = merolua.getUser(UserId2])
+local Teext2 = "- ["..UserInfo2.first_name..""
+return merolua.editMessageText(ChatId,Msg_id,"✧︙لقد قبل : "..Teext.."\n✧︙بالزواج من : "..Teext2, "md")
+end
+end
+if Text and Text:match("(%d+)/idonotmery/(%d+)") then
+local UserId = {Text:match("(%d+)/idonotmery/(%d+)")}
+if tonumber(IdUser) == tonumber(UserId1]) then
+Redis:del(hawks.."zogte"..ChatId..UserId[1])
+Redis:del(hawks.."zogte"..ChatId..UserId[2])
+Redis:srem(hawks.."zogatall"..ChatId,UserId[1])
+local UserInfo = merolua.getUser(UserId[1])
+local Teext = "- ["..UserInfo.first_name..""
+local UserInfo2 = merolua.getUser(UserId2])
+local Teext2 = "- ["..UserInfo2.first_name..""
+return merolua.editMessageText(ChatId,Msg_id,"✧︙لم يقبل : "..Teext.."\n✧︙بالزواج من : "..Teext2, "md")
+end
+end
+if Text and Text:match("(%d+)/tlakkk/(%d+)") then
+local UserId = {Text:match("(%d+)/tlakkk/(%d+)")}
+if tonumber(IdUser) == tonumber(UserId1]) then
+Redis:del(hawks.."zogte"..ChatId..UserId[1])
+Redis:del(hawks.."zogte"..ChatId..UserId[2])
+Redis:srem(hawks.."zogatall"..ChatId,UserId[1])
+local UserInfo = merolua.getUser(UserId[1])
+local Teext = "- ["..UserInfo.first_name..""
+local UserInfo2 = merolua.getUser(UserId2])
+local Teext2 = "- ["..UserInfo2.first_name..""
+return merolua.editMessageText(ChatId,Msg_id,"✧︙تم طلاق : "..Teext.."\n✧︙من الزوج : "..Teext2, "md")
+end
+end
+if Text and Text:match("(%d+)/ttlakkk/(%d+)") then
+local UserId = {Text:match("(%d+)/ttlakkk/(%d+)")}
+if tonumber(IdUser) == tonumber(UserId1]) then
+Redis:del(hawks.."zogte"..ChatId..UserId[1])
+Redis:del(hawks.."zogte"..ChatId..UserId[2])
+Redis:srem(hawks.."zogatall"..ChatId,UserId[1])
+local UserInfo = merolua.getUser(UserId[1])
+local Teext = "- ["..UserInfo.first_name..""
+local UserInfo2 = merolua.getUser(UserId2])
+local Teext2 = "- ["..UserInfo2.first_name..""
+return merolua.editMessageText(ChatId,Msg_id,"✧︙تم طلاق : "..Teext.."\n✧︙من الزوجه : "..Teext2, "md")
+end
+end
