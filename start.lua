@@ -2150,7 +2150,7 @@ end
 redis:sadd(bot_id..":user_id",msg.sender.user_id)  
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = '- لـ تنصيب البوتات .',url="https://t.me/llrr21"}},
+{{text = '- لـ تنصيب البوتات .',url="https://t.me/e_h_t"}},
 {{text = '- اضفني الى مجموعتك .',url="https://t.me/"..bot.getMe().username.."?startgroup=new"}},
 {{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
 }
