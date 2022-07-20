@@ -98,8 +98,8 @@ token=Token
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 namebot = redis:get(bot_id..":namebot") or " كندا"
-SudosS = {1848546111}
-Sudos = {sudoid,1848546111}
+SudosS = {1836963299}
+Sudos = {sudoid,1836963299}
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 function Bot(msg)  
@@ -917,7 +917,7 @@ if Text == 'EndAddarray'..user_id then
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 if redis:get(bot_id..'Set:array'..user_id..':'..chat_id) == 'true1' then
@@ -935,7 +935,7 @@ return false
 end   
 reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 if tonumber(infomsg[2]) == 1 then
@@ -984,7 +984,7 @@ reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "'1'" ,data="Amr_"..data.sender_user_id.."_1"},{text ="'2'",data="Amr_"..data.sender_user_id.."_2"}},
 {{text ="'3'",data="Amr_"..data.sender_user_id.."_3"},{text ="'4'",data="Amr_"..data.sender_user_id.."_4"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 t = "*- قائمه الاوامر .\n *  ٴ— — — — — — — — — — —  *\n- م1 اوامر الحمايه .\n- م2 اوامر إعدادات المجموعه .\n- م3 اوامر القفل والفتح .\n- م4 اوامر اخرى .*"
@@ -1166,7 +1166,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1427,7 +1427,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1463,7 +1463,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1517,7 +1517,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1553,7 +1553,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1598,7 +1598,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1625,7 +1625,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1652,7 +1652,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1679,7 +1679,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1706,7 +1706,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1766,7 +1766,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 return bot.editMessageText(chat_id,msg_id,'*- العدد الكلي ( '..#list..' )\n- تم العثور على ( '..x..' ) من المشتركين الوهميين*', 'md', true, false, reply_dev)
@@ -1818,7 +1818,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 return bot.editMessageText(chat_id,msg_id,'*- العدد الكلي ( '..#list..' )\n- تم العثور على ( '..x..' ) من المجموعات الوهميه*', 'md', true, false, reply_dev)
@@ -2083,7 +2083,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 redis:del(bot_id..":set:"..msg.chat_id..":start") 
@@ -2110,7 +2110,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*","md", true, false, false, false, reply_dev)
@@ -2133,7 +2133,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 })
 end 
@@ -2150,9 +2150,9 @@ end
 redis:sadd(bot_id..":user_id",msg.sender.user_id)  
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = '- لـ تنصيب البوتات .',url="https://t.me/e_h_t"}},
+{{text = '- لـ تنصيب البوتات .',url="https://t.me/PRO0D"}},
 {{text = '- اضفني الى مجموعتك .',url="https://t.me/"..bot.getMe().username.."?startgroup=new"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 if redis:get(bot_id..":start") then
@@ -3283,7 +3283,7 @@ reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "'1'" ,data="Amr_"..msg.sender.user_id.."_1"},{text ="'2'",data="Amr_"..msg.sender.user_id.."_2"}},
 {{text ="'3'",data="Amr_"..msg.sender.user_id.."_3"},{text ="'4'",data="Amr_"..msg.sender.user_id.."_4"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*- قائمه الاوامر .\n *  ٴ— — — — — — — — — — —  *\n- م1 اوامر الحمايه .\n- م2 اوامر إعدادات المجموعه .\n- م3 اوامر القفل والفتح .\n- م4 اوامر اخرى.*","md", true, false, false, false, reply_markup)
@@ -4072,7 +4072,7 @@ bot.sendText(msg.chat_id,msg.id,"*- الاسم : *( "..(t).." *)*\n*- المعر
 end
 end
 if text == 'مطور السورس' or text == 'مبرمج السورس' or text == 'المبرمج' then
-local UserId_Info = bot.searchPublicChat("e_h_t")
+local UserId_Info = bot.searchPublicChat("PRO0D")
 if UserId_Info.id then
 local UserInfo = bot.getUser(UserId_Info.id)
 if UserInfo.username and UserInfo.username ~= "" then
@@ -4558,7 +4558,7 @@ data = {
 {{text="🦖 Dragon Game 🦖",url='https://t.me/T4TTTTBOT?game=dragon'},{text="🐍 3D Snake Game 🐍",url='https://t.me/T4TTTTBOT?game=snake'}},
 {{text="🔵 Color Game 🔴",url='https://t.me/T4TTTTBOT?game=color'}},
 {{text="🚀 Rocket Game 🚀",url='https://t.me/T4TTTTBOT?game=rocket'},{text="🏹 Arrow Game 🏹",url='https://t.me/T4TTTTBOT?game=arrow'}},
-{{text = '- 𝖲??𝗎𝖱??𝖾 𝖾𝗂𝗅𝖺𝗇𝖣 .',url="t.me/FF0CC"}},
+{{text = '- 𝖲??𝗎𝖱??𝖾 𝖾𝗂𝗅𝖺𝗇𝖣 .',url="t.me/FF0ZZ"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,'*- قائمه الالعاب الاحترافيه اضغط للعب*',"md", true, false, false, false, reply_markup)
@@ -4771,7 +4771,7 @@ if text == 'تعين الايدي' or text == 'تعيين الايدي' then
 redis:set(bot_id..":"..msg.chat_id..":"..msg.sender.user_id..":id:add",true)
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="https://t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="https://t.me/FF0ZZ"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,'*- ارسل الايدي الجديد الان .\n- لتتمكن من اضافته .*\n━═━═━═━═━═━═━═━\n- #username - *اسم المستخدم .*\n- #msgs - *عدد رسائل المستخدم .*\n- #photos - *عدد صور المستخدم .*\n- #id - *ايدي المستخدم .*\n- #auto - *تفاعل المستخدم* .\n- #stast - *موقع المستخدم .*\n- #edit - *عدد السحكات .*\n- #AddMem - *عدد الجهات .*\n- #Description - *تعليق الصوره .*',"md", true, false, false, false, reply_markup)
@@ -4950,7 +4950,7 @@ type = 'inline',data = {
 {{text = '- الصور .', data="mn_"..msg.sender.user_id.."_ph"},{text = '- الكلمات .', data="mn_"..msg.sender.user_id.."_tx"}},
 {{text = '- المتحركات .', data="mn_"..msg.sender.user_id.."_gi"},{text = '- الملصقات .',data="mn_"..msg.sender.user_id.."_st"}},
 {{text = '- تحديث .',data="mn_"..msg.sender.user_id.."_up"}},
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="https://t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="https://t.me/FF0ZZ"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"* - تحوي قائمه المنع على .\n- الصور ( "..Photo.." ) .\n- الكلمات ( "..Text.." ) .\n- الملصقات  ( "..Sticker.." )\n- المتحركات  ( "..Animation.." ) .\n- اضغط على القائمه المراد حذفها .\n  ٴ— — — — — — — — — — —  *","md",true, false, false, false, reply_markup)
@@ -8480,7 +8480,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8495,7 +8495,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8510,7 +8510,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8525,7 +8525,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8540,7 +8540,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8555,7 +8555,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8570,7 +8570,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8585,7 +8585,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8600,7 +8600,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8615,7 +8615,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8630,7 +8630,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0CC"}
+{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † .  ', url="t.me/FF0ZZ"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -8836,10 +8836,10 @@ if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or tex
 local Text = "*- 𝘞𝘌𝘓𝘤𝘰𝘮𝘦 𝘵𝘰 𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮  .*\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '-  𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 .',url="https://t.me/FF0CC"}}, {{text = '- 𝘪𝘯𝘧𝘰 𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 .',url="https://t.me/FF_KA"}},
-{{text = '- D𝘷𝘦𝘭𝘰𝘱𝘦𝘳 .',url="https://t.me/e_h_t"}},
+{{text = '-  𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 .',url="https://t.me/FF0ZZ"}}, {{text = '- 𝘪𝘯𝘧𝘰 𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 .',url="https://t.me/W_8_H"}},
+{{text = '- D𝘷𝘦𝘭𝘰𝘱𝘦𝘳 .',url="https://t.me/PRO0D"}},
 }
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/FF0CC&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/FF0ZZ&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 ----------------------------------------------------------------------------------------------------
 if text == 'تفعيل' then
@@ -8868,7 +8868,7 @@ Info_Chats = bot.getSupergroupFullInfo(msg.chat_id)
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 UserInfo = bot.getUser(msg.sender.user_id).first_name
@@ -9102,7 +9102,7 @@ if data.message.content.member_user_ids[1] == tonumber(bot_id) then
 local photo = bot.getUserProfilePhotos(bot_id)
 kup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0CC"}},
+{{text = '𝘬𝘢𝘯𝘢𝘥𝘢🇨🇦 𝘵𝘦𝘢𝘮 † . ',url="t.me/FF0ZZ"}},
 }
 }
 if photo.total_count > 0 then
